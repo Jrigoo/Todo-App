@@ -1,0 +1,12 @@
+.createTodo {
+  width: 100%;
+  height: fit-content;
+
+  outline: none;
+  background-color: #126782;
+  color: #e0e1dd;
+  border: none;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}

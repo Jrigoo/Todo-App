@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: fit-content;
+}
+.header__title {
+  width: 100%;
+  height: 7rem;
+  text-align: center;
+  color: #feeafa;
+  font-size: 7rem;
+  letter-spacing: 1px;
+}
+
+.header__counter {
+  height: fit-content;
+  text-align: center;
+  font-size: 3rem;
+  color: #feeafa;
+}

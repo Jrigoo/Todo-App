@@ -1,0 +1,37 @@
+.todoItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.task_done {
+  text-decoration: line-through;
+}
+.todoItem p {
+  height: fit-content;
+  color: #e0e1dd;
+  font-size: 2.5rem;
+}
+.todoItem_icons {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.todoItem__icon {
+  color: #e0e1dd;
+  padding: 0px 3px;
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+.todoItem__input {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 25%;
+}

@@ -1,0 +1,11 @@
+.todoInput {
+  width: 100%;
+
+  height: fit-content;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+
+  border-radius: 10px;
+  font-size: 2.4rem;
+}
