@@ -19,6 +19,23 @@ body {
 
 #root {
   width: 300px;
-  height: fit-content;
   position: relative;
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    padding: 10px;
+  }
+  #root {
+    width: 100%;
+  }
+  .modal {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-height: 370px) {
+  #root {
+    padding: 20px 0px;
+  }
 }

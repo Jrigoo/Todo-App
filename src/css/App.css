@@ -53,11 +53,11 @@
 
 .todoForm__input {
   width: 100%;
-
+  min-height: 50px;
   height: fit-content;
   border: none;
   outline: none;
-  padding: 5px 20px;
+  padding: 1vh 20px;
 
   border-radius: 10px;
   font-size: 2.2rem;
